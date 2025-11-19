@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanan Qadirov - Front-end Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="#home">KQ</a>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">Kanan Qadirov</h1>
+                    <h2 class="hero-title">Front-end Developer</h2>
+                    <p class="hero-description">
+                        Skilled in building responsive web applications using HTML, CSS, JavaScript, and React.js, 
+                        with back-end experience in Node.js, Express.js, and MongoDB. Passionate about creating 
+                        user-friendly, efficient web solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:kananqadirov2005@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <div class="gradient-bg"></div>
+                        <img src="images/WhatsApp Image 2025-11-19 at 00.52.42_0434caff.jpg" alt="Profile" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Who I Am</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/WhatsApp Image 2025-11-19 at 00.52.42_0434caff.jpg" alt="About Me">
+                </div>
+                <div class="about-text">
+                    <h3>Front-end Developer & Problem Solver</h3>
+                    <p>
+                        I'm a Front-end Developer with a background in technical support and front-end development. 
+                        Experienced in troubleshooting hardware/software issues, assisting users, and building responsive 
+                        web interfaces using HTML, CSS, and JavaScript.
+                    </p>
+                    <p>
+                        Currently working as a Front-end Developer at CreatorX, I'm passionate about creating user-friendly, 
+                        efficient web solutions. I love turning complex problems into simple, beautiful, and intuitive designs, 
+                        and I'm always exploring new technologies to expand my technical expertise.
+                    </p>
+                    <!-- <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number"></span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1st</span>
+                            <span class="stat-label">Hackathon Winner</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Languages</span>
+                        </div>
+                    </div> -->
+                    <div class="education-info">
+                        <h4>Education</h4>
+                        <p><strong>Bachelor's Degree in Information Technology</strong><br>
+                        Azerbaijan University of Architecture and Construction<br>
+                        <small>2022 - Present</small></p>
+                        <p><strong>Front-End Development Course</strong><br>
+                        Code Academy<br>
+                        <small>Sep 2024 - Feb 2025</small></p>
+                    </div>
+                    <div class="languages-info">
+                        <h4>Languages</h4>
+                        <div class="language-tags">
+                            <span>English</span>
+                            <span>Azerbaijan</span>
+                            <span>Turkish</span>
+                            <span>Russian</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Journey</span>
+                <h2 class="section-title">Professional Experience</h2>
+            </div>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-date">Sep 2025 - Present</div>
+                    <div class="experience-content">
+                        <h3>Front-end Developer</h3>
+                        <h4>CreatorX</h4>
+                        <ul>
+                            <li>Designed and implemented high-quality UI/UX layouts for web interfaces, ensuring responsive, user-focused, and visually consistent experiences.</li>
+                            <li>Integrated Instagram and TikTok APIs to enable seamless content posting directly from the platform.</li>
+                            <li>Developed a post scheduling system, allowing users to automate and manage publishing workflows.</li>
+                            <li>Collaborated with backend and design teams to deliver optimized, scalable, and production-ready features.</li>
+                            <li>Ensured smooth API communication, error handling, and authentication flows across social media integrations.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-date">Feb 2024 - May 2024</div>
+                    <div class="experience-content">
+                        <h3>Help Desk</h3>
+                        <h4>Gomruk Hospital</h4>
+                        <ul>
+                            <li>Provided technical support to hospital staff, troubleshooting hardware and software issues.</li>
+                            <li>Assisted in resolving network and system problems to ensure smooth IT operations.</li>
+                            <li>Documented incidents and solutions, improving efficiency in handling technical requests.</li>
+                            <li>Supported end-users with IT-related questions and maintained positive customer service.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Skills</span>
+                <h2 class="section-title">What I Can Do</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>Frontend Technologies</h3>
+                    <p>HTML, CSS, JavaScript, React.js, Next.js, Tailwind CSS, SASS</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Node.js, Express.js, REST APIs</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database</h3>
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Version Control</h3>
+                    <p>Git, GitHub</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Soft Skills</h3>
+                    <p>Teamwork, Problem-solving, Critical Thinking</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Other Tools</h3>
+                    <p>MS Office Programs</p>
+                </div>
+            </div>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>JavaScript</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>React.js</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Next.js</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Node.js & Express</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>MongoDB</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/image.png" alt="League Net">
+                        <div class="project-overlay">
+                            <a href="https://github.com/JhonneyQ/final-layihe" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>League Net</h3>
+                        <p>A community platform for League of Legends fans to chat and watch reels. Interactive website connecting LoL players with content and social features. A fan-driven web platform for chatting, sharing, and following League of Legends content.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                        </div>
+                        <p class="project-date"><small>Feb 2025 - Mar 2025</small></p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/image2.png" alt="BuildConnect">
+                        <div class="project-overlay">
+                            <a href="https://github.com/JhonneyQ/BK-Hack" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>BuildConnect</h3>
+                        <p>A web platform that connects construction workers with clients looking to hire for projects. Users can create profiles, post or browse job opportunities, and communicate directly to streamline hiring and project management.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Achievements</span>
+                <h2 class="section-title">Certificates & Awards</h2>
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Code8 Hackathon</h3>
+                    <p class="certificate-type">1st Place Winner</p>
+                    <p>Collaborated in a team to design and develop a web application, demonstrating skills in problem-solving, coding, and teamwork under time constraints.</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>IT Specialist HTML and CSS</h3>
+                    <p class="certificate-type">Certificate</p>
+                    <p>Achieved with high score. Gained practical knowledge in building and styling web pages using HTML and CSS, following best practices for responsive and accessible design.</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Front-End Development</h3>
+                    <p class="certificate-type">Honour Diploma</p>
+                    <p>Code Academy - Upon successful completion of the term in Software Development program. Skilled in building responsive web applications using HTML, CSS, JavaScript, and React.js.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's Work Together</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:kananqadirov2005@gmail.com" style="color: var(--text-light); text-decoration: none;">kananqadirov2005@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p><a href="tel:0703932211" style="color: var(--text-light); text-decoration: none;">070 393 22 11</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Baku, Khatai District, Azerbaijan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:kananqadirov2005@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Kanan Qadirov. All rights reserved.</p>
+            <p>Front-end Developer | Baku, Azerbaijan</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
